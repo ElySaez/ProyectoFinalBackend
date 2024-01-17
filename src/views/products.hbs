@@ -66,17 +66,47 @@
     <div class="uploadProducts">
         <h3 id="message"></h3>
         <button id="openModalBtn"> Agregar producto</button>
-
         <div id="modal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <form id="nuevoProducto" class="vertical-form">
-                    <!-- Your form content goes here -->
+                    <div class="form-group">
+                        <label for="title">Nombre:</label>
+                        <input type="text" name="title" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Descripción:</label>
+                        <input type="text" name="description" placeholder="Descripción">
+                    </div>
+                    <div class="form-group">
+                        <label for="category">Categoría:</label>
+                        <input type="text" name="category" placeholder="Categoría">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Precio:</label>
+                        <input type="text" name="price" placeholder="Precio">
+                    </div>
+                    <div class="form-group">
+                        <label for="file">Elige una imagen:</label>
+                        <input type="file" name="thumbnail">
+                    </div>
+                    <div class="form-group">
+                        <label for="code">Código:</label>
+                        <input type="text" name="code" placeholder="Código">
+                    </div>
+                    <div class="form-group">
+                        <label for="stock">Stock:</label>
+                        <input type="text" name="stock" placeholder="Stock">
+                    </div>
+                    <button>Enviar</button>
                 </form>
             </div>
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"
+        integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="/products.js"></script>
 </body>
