@@ -1,0 +1,82 @@
+<body class="align">
+  {{#if loggedin}}
+  <nav class="navigation navigation--inline">
+    <div class="userinfo">
+      <h4>Bienvenido: {{user}}</h4>
+      <div class="finishSession">
+        <a id="link" href="/api/session/logout">Terminar sesión</a>
+        <i class="fa fa-sign-out" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <ul class="nav-list">
+      <!-- Bloque de navegación destacado -->
+      <li>
+        <a href="/api/products" class="nav-link">
+          <img src="../images/punto.png" alt="products">
+          <span class="invisible">Productos</span>
+        </a>
+      </li>
+      <li>
+        <a href="/api/carts" class="nav-link">
+          <img src="../images/punto.png" alt="carts">
+          <span class="invisible">Carritos</span>
+        </a>
+      </li>
+      <li>
+        <a href="/api/docs" class="nav-link">
+          <img src="../images/punto.png" alt="documentation">
+          <span class="invisible">Docs</span>
+        </a>
+      </li>
+      <li>
+        <a href="/api/users/documents" class="nav-link">
+          <img src="../images/punto.png" alt="User Documents">
+          <span class="invisible">Perfil</span>
+        </a>
+      </li>
+
+      {{#if isAdmin}}
+      <li >
+        <a href="/api/users/premium">
+          <img src="../images/punto.png" alt="users">
+          <span class="invisible">Usuarios</span>
+        </a>
+      </li>
+      {{/if}}
+
+      <!-- Fin del bloque de navegación destacado -->
+    </ul>
+  </nav>
+  <div>
+    <a id="botonflotador" href="/api/chat">
+      <img src="../images/chat.png" alt="Botón Flotante">
+    </a>
+  </div>
+
+  {{/if}}
+
+  {{#unless loggedBoolean}}
+<div class="center-container">
+    <li class="menu-item">
+        <a href="/api/session/login" class="menu-link">
+            <img src="../images/login.png" alt="login" class="icon">
+            <span class="invisible-text">Login</span>
+        </a>
+    </li>
+    <li class="menu-item">
+        <a href="/api/session/register" class="menu-link">
+            <img src="../images/newuser.png" alt="newuser" class="icon">
+            <span class="invisible-text">Register</span>
+        </a>
+    </li>
+</div>
+
+  {{/unless }}
+
+
+
+
+
+
+</body>

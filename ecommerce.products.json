@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21280"
+  },
+  "title": "Agua",
+  "description": "Sin gas",
+  "category": "Bebida",
+  "price": "1000",
+  "stock": "80"
+},
+{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21281"
+  },
+  "title": "Jabón",
+  "description": "cara",
+  "category": "Cuidado personal",
+  "price": "500",
+  "stock": "60"
+},
+{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21282"
+  },
+  "title": "Shampoo",
+  "description": "niños",
+  "category": "Cuidado personal",
+  "price": "3000",
+  "stock": "5"
+},
+{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21283"
+  },
+  "title": "ventilador",
+  "description": "metalico",
+  "category": "Deco hogar",
+  "price": "50000",
+  "stock": "30"
+},
+{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21284"
+  },
+  "title": "Silla",
+  "description": "Madera",
+  "category": "Hogar",
+  "price": "50000",
+  "stock": "24"
+},
+{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21285"
+  },
+  "title": "Cama",
+  "description": "2 plazas",
+  "category": "Hogar",
+  "price": "120000",
+  "stock": "23"
+},
+{
+  "_id": {
+    "$oid": "651ec8c070a37d8405e21286"
+  },
+  "title": "Celular",
+  "description": "Iphone",
+  "category": "Electronica",
+  "price": "1000000",
+  "stock": "42"
+}]

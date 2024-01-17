@@ -1,0 +1,7 @@
+.idea
+node_modules
+uploads/documents/
+uploads/products/
+uploads/profile/
+.env.production 
+.env.development
