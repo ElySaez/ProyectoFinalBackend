@@ -1,10 +1,8 @@
 # ProyectoFinalBackend
 CODERHOUSE
-# Título del Proyecto
 
 ## Descripción
-
-Breve descripción del proyecto y su propósito.
+Este proyecto es un sistema de gestión que facilita la administración de productos y ventas. Permite a los usuarios crear cuentas, iniciar sesión para acceder a funcionalidades exclusivas, y cerrar sesión cuando hayan concluido. La aplicación proporciona herramientas para agregar, editar y eliminar productos, así como para registrar y visualizar transacciones de ventas.
 
 ## Requisitos Previos
 
