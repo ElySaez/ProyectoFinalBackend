@@ -412,7 +412,62 @@ iframe {
   visibility: visible;
   opacity: 1;
 }
+.wrap-input100 label {
+  font-size: 0.8em; /* Ajusta el tamaño del texto según tus preferencias */
+  color: #888; /* Color del texto */
+  display: block; /* Hacer que el label ocupe una línea completa */
+  margin-bottom: 5px; /* Ajustar el margen inferior para separarlo del campo de entrada */
+}
+.wrap-input100 {
+        position: relative;
+        display: inline-block;
+    }
 
+    .info-icon {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .info-icon i {
+        color: #888;
+    }
+
+    .info-tooltip {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: 10px;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: none;
+        font-size: 0.8em;
+        width: auto;
+        white-space: nowrap;
+    }
+
+    .wrap-input100:hover .info-tooltip {
+        display: block;
+    }
+
+    .wrap-input100 input {
+        padding-right: 30px;
+    }
+
+    /* Cambia el color del prefijo +5411 */
+    .wrap-input100 input::before {
+        content: "+5411";
+        display: inline-block;
+        position: absolute;
+        left: 10px; /* Ajusta la posición del prefijo */
+        top: 50%;
+        transform: translateY(-50%);
+        color: #00a2e8; /* Cambia el color según tus preferencias */
+    }
 @media (max-width: 992px) {
   .alert-validate::before {
     visibility: visible;
